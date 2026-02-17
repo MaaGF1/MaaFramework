@@ -2,6 +2,7 @@
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
   <compound refid="structMaaCustomControllerCallbacks" kind="struct"><name>MaaCustomControllerCallbacks</name>
     <member refid="structMaaCustomControllerCallbacks_1a74d6aa4b9e6fc074f4d97d6ebe3be6ad" kind="variable"><name>connect</name></member>
+    <member refid="structMaaCustomControllerCallbacks_1a5294cb3629297bc3449019222b445a79" kind="variable"><name>connected</name></member>
     <member refid="structMaaCustomControllerCallbacks_1af0a00cdd379be8608bf360acfdfde4ea" kind="variable"><name>request_uuid</name></member>
     <member refid="structMaaCustomControllerCallbacks_1a318dbd580c96d8bf215a2df9d565d450" kind="variable"><name>get_features</name></member>
     <member refid="structMaaCustomControllerCallbacks_1ac25e877ae83b359a0b3e7ee8b02f534f" kind="variable"><name>start_app</name></member>
@@ -28,6 +29,7 @@
   </compound>
   <compound refid="MaaAgentClientAPI_8h" kind="file"><name>MaaAgentClientAPI.h</name>
     <member refid="MaaAgentClientAPI_8h_1aabf857baa187865204e5c0e2e455f71a" kind="function"><name>MaaAgentClientCreateV2</name></member>
+    <member refid="MaaAgentClientAPI_8h_1ab334a1d1dc2c2f0b9f42fc06102d72a9" kind="function"><name>MaaAgentClientCreateTcp</name></member>
     <member refid="MaaAgentClientAPI_8h_1a330835a995399c4cd083671a72c42331" kind="function"><name>MaaAgentClientDestroy</name></member>
     <member refid="MaaAgentClientAPI_8h_1aa8883d8757c32c9cc0c3308b6f91e786" kind="function"><name>MaaAgentClientIdentifier</name></member>
     <member refid="MaaAgentClientAPI_8h_1ae92e9c2dd74218aa0617a8630456ef64" kind="function"><name>MaaAgentClientBindResource</name></member>
@@ -70,6 +72,9 @@
     <member refid="MaaContext_8h_1ae55a7608008e1f51ce52614e3cae3a2d" kind="function"><name>MaaContextRunTask</name></member>
     <member refid="MaaContext_8h_1a0cf90816e1b498a66ade37ff12a4e6eb" kind="function"><name>MaaContextRunRecognition</name></member>
     <member refid="MaaContext_8h_1ad46ec2676c2e012a47d2274cc7d44d46" kind="function"><name>MaaContextRunAction</name></member>
+    <member refid="MaaContext_8h_1a5fc7edecb7e63370aa45a777e0a9d97e" kind="function"><name>MaaContextRunRecognitionDirect</name></member>
+    <member refid="MaaContext_8h_1a6f2559c822c79aee9b3ae27e3ea460cf" kind="function"><name>MaaContextRunActionDirect</name></member>
+    <member refid="MaaContext_8h_1acef9057c0564eed1e1bc961da13c8b4d" kind="function"><name>MaaContextWaitFreezes</name></member>
     <member refid="MaaContext_8h_1a581b031a7dceedcf1ff6cec308895cce" kind="function"><name>MaaContextOverridePipeline</name></member>
     <member refid="MaaContext_8h_1a1ece7f4198230c43f226ab8f7923728d" kind="function"><name>MaaContextOverrideNext</name></member>
     <member refid="MaaContext_8h_1a6064c7441f9e387eb1f0cbfa6d1ea38d" kind="function"><name>MaaContextOverrideImage</name></member>
@@ -89,6 +94,7 @@
     <member refid="MaaController_8h_1a2ff145414faed5fdeedc36e97729677e" kind="function"><name>MaaCustomControllerCreate</name></member>
     <member refid="MaaController_8h_1a1ea4c3aa0b3bcb39d35dc13cdde9a044" kind="function"><name>MaaDbgControllerCreate</name></member>
     <member refid="MaaController_8h_1af9b278b0a220ea72ff4ce564a055ff52" kind="function"><name>MaaPlayCoverControllerCreate</name></member>
+    <member refid="MaaController_8h_1ab979f25e17e04ae8cc2d2a6aa1b2540a" kind="function"><name>MaaGamepadControllerCreate</name></member>
     <member refid="MaaController_8h_1a497982481bf79e89bc457d8a6e5e7bed" kind="function"><name>MaaControllerDestroy</name></member>
     <member refid="MaaController_8h_1aa01ed95af83d12f7bc3d49fdba415419" kind="function"><name>MaaControllerAddSink</name></member>
     <member refid="MaaController_8h_1a1ae3f067cb374a85ae7580a08945e7b6" kind="function"><name>MaaControllerRemoveSink</name></member>
@@ -96,7 +102,9 @@
     <member refid="MaaController_8h_1ac0247a25f33dfbc7bd3a0183a669aad3" kind="function"><name>MaaControllerSetOption</name></member>
     <member refid="MaaController_8h_1a08f41be1ab0845f494ad7357adac0336" kind="function"><name>MaaControllerPostConnection</name></member>
     <member refid="MaaController_8h_1aaf0eb096930a8a9592b11baf918a5910" kind="function"><name>MaaControllerPostClick</name></member>
+    <member refid="MaaController_8h_1a3f72c71e3668ff13371f7439e6764d95" kind="function"><name>MaaControllerPostClickV2</name></member>
     <member refid="MaaController_8h_1ab45ddcc66eede5ebd38fd5952427006d" kind="function"><name>MaaControllerPostSwipe</name></member>
+    <member refid="MaaController_8h_1ad1c58989515de52fecba405b779ec1e2" kind="function"><name>MaaControllerPostSwipeV2</name></member>
     <member refid="MaaController_8h_1a8d39d06718c5961f0f9a51849e3ed349" kind="function"><name>MaaControllerPostClickKey</name></member>
     <member refid="MaaController_8h_1ac7d6cae7d63684a3d6e78201fcca4b40" kind="function"><name>MaaControllerPostInputText</name></member>
     <member refid="MaaController_8h_1aab01b6a21228d8e18a0733f481278148" kind="function"><name>MaaControllerPostStartApp</name></member>
@@ -115,6 +123,7 @@
     <member refid="MaaController_8h_1a0066bfa64a73b16f82a5060bdef72982" kind="function"><name>MaaControllerConnected</name></member>
     <member refid="MaaController_8h_1a730b6f3a5048f143a83c22bb05aec583" kind="function"><name>MaaControllerCachedImage</name></member>
     <member refid="MaaController_8h_1a0d7b5199f257b233e79a062c0811b555" kind="function"><name>MaaControllerGetUuid</name></member>
+    <member refid="MaaController_8h_1a5373a7227d07d8d46c9a011111d2083b" kind="function"><name>MaaControllerGetResolution</name></member>
     <member refid="MaaController_8h_1a5d20a13ed1473795423cc2f51423bea0" kind="function"><name>MaaControllerPostPressKey</name></member>
   </compound>
   <compound refid="MaaCustomController_8h" kind="file"><name>MaaCustomController.h</name>
@@ -148,6 +157,8 @@
     <member refid="MaaResource_8h_1a93292991dbd360311465e875e9053055" kind="function"><name>MaaResourceGetNodeList</name></member>
     <member refid="MaaResource_8h_1a1046bba51b717e5b6f69e673c10141d1" kind="function"><name>MaaResourceGetCustomRecognitionList</name></member>
     <member refid="MaaResource_8h_1a131e370cac4c849c1d7a28f58491a9a9" kind="function"><name>MaaResourceGetCustomActionList</name></member>
+    <member refid="MaaResource_8h_1a54e07840896dd99b1aa1580c84cc25e3" kind="function"><name>MaaResourceGetDefaultRecognitionParam</name></member>
+    <member refid="MaaResource_8h_1a861e1c03118c4cdc4456625fad276ad9" kind="function"><name>MaaResourceGetDefaultActionParam</name></member>
   </compound>
   <compound refid="MaaTasker_8h" kind="file"><name>MaaTasker.h</name>
     <member refid="MaaTasker_8h_1abc517c855a09e5cd6a3cf33f0c7abb4b" kind="function"><name>MaaTaskerCreate</name></member>
@@ -173,6 +184,7 @@
     <member refid="MaaTasker_8h_1a66bcb6d294dd92c294555c826ef2d749" kind="function"><name>MaaTaskerGetResource</name></member>
     <member refid="MaaTasker_8h_1a077181e4d90b12a219ff49d092700a86" kind="function"><name>MaaTaskerGetController</name></member>
     <member refid="MaaTasker_8h_1aea0f684a6987fc963254f68870537925" kind="function"><name>MaaTaskerClearCache</name></member>
+    <member refid="MaaTasker_8h_1a899a756cf686e880c0691105176c6773" kind="function"><name>MaaTaskerOverridePipeline</name></member>
     <member refid="MaaTasker_8h_1aa0a412e5b5e08fb4f4e11de826700ff7" kind="function"><name>MaaTaskerGetRecognitionDetail</name></member>
     <member refid="MaaTasker_8h_1ad18ddb1160386ad45e2268b5fc655488" kind="function"><name>MaaTaskerGetActionDetail</name></member>
     <member refid="MaaTasker_8h_1a2807a557aa5cac9d2bee6281ec22f836" kind="function"><name>MaaTaskerGetNodeDetail</name></member>
@@ -219,9 +231,43 @@
     <member refid="MaaDef_8h_1ab67ca0fce1cf517080804b1cae4be9b6" kind="define"><name>MaaDbgControllerType_None</name></member>
     <member refid="MaaDef_8h_1a6a9179147858e053948175909352e60d" kind="define"><name>MaaDbgControllerType_CarouselImage</name></member>
     <member refid="MaaDef_8h_1ad5fbfc89110fdbfd5f535c0a4557b809" kind="define"><name>MaaDbgControllerType_ReplayRecording</name></member>
+    <member refid="MaaDef_8h_1a586ad29ada2c999ae75b77ad6baeedb9" kind="define"><name>MaaGamepadType_Xbox360</name></member>
+    <member refid="MaaDef_8h_1af8af7e509a456f76d65db79f99b14591" kind="define"><name>MaaGamepadType_DualShock4</name></member>
+    <member refid="MaaDef_8h_1acbc161630001bc8f54f7cf136a0493fc" kind="define"><name>MaaGamepadButton_A</name></member>
+    <member refid="MaaDef_8h_1ab6642c8e33ef8fd4663844c7902a4b88" kind="define"><name>MaaGamepadButton_B</name></member>
+    <member refid="MaaDef_8h_1aff435019a0fd0944954b3359ec995b73" kind="define"><name>MaaGamepadButton_X</name></member>
+    <member refid="MaaDef_8h_1a721c98469b8587587d49e3faa7cd4e91" kind="define"><name>MaaGamepadButton_Y</name></member>
+    <member refid="MaaDef_8h_1a829f56dfed642469c93e764ecb2a2324" kind="define"><name>MaaGamepadButton_LB</name></member>
+    <member refid="MaaDef_8h_1ad485ac5c8162c383e480dda71d5e3de2" kind="define"><name>MaaGamepadButton_RB</name></member>
+    <member refid="MaaDef_8h_1a092eaebcba991de49d33bcd1b43157a0" kind="define"><name>MaaGamepadButton_LEFT_THUMB</name></member>
+    <member refid="MaaDef_8h_1a96858ccbeab2d09b260f5cf8f7853e3b" kind="define"><name>MaaGamepadButton_RIGHT_THUMB</name></member>
+    <member refid="MaaDef_8h_1a026a34d3279ae1914494b719d45da075" kind="define"><name>MaaGamepadButton_START</name></member>
+    <member refid="MaaDef_8h_1a6ab0f942cf53ee5bef82efc619aff6d8" kind="define"><name>MaaGamepadButton_BACK</name></member>
+    <member refid="MaaDef_8h_1adb6bd0da85936d9b6241faad67037b50" kind="define"><name>MaaGamepadButton_GUIDE</name></member>
+    <member refid="MaaDef_8h_1a528a2bcf79894972c5827c112bf55691" kind="define"><name>MaaGamepadButton_DPAD_UP</name></member>
+    <member refid="MaaDef_8h_1a7b123c7d27ed4f240ba8ba46e50ce086" kind="define"><name>MaaGamepadButton_DPAD_DOWN</name></member>
+    <member refid="MaaDef_8h_1aff4c7b27b10eba1ad519448582e57d84" kind="define"><name>MaaGamepadButton_DPAD_LEFT</name></member>
+    <member refid="MaaDef_8h_1a6e1c8783f1d81f51c21dbe95aa21f9fa" kind="define"><name>MaaGamepadButton_DPAD_RIGHT</name></member>
+    <member refid="MaaDef_8h_1ad80f0a36dd65cb8208b9c28a1112b796" kind="define"><name>MaaGamepadButton_CROSS</name></member>
+    <member refid="MaaDef_8h_1a34aaaf26cf91ddab88362a1f7c900154" kind="define"><name>MaaGamepadButton_CIRCLE</name></member>
+    <member refid="MaaDef_8h_1a5aadc42136d91795ddbe892bf392a807" kind="define"><name>MaaGamepadButton_SQUARE</name></member>
+    <member refid="MaaDef_8h_1a028f1515ebc3918b3c0abd6a85400e6d" kind="define"><name>MaaGamepadButton_TRIANGLE</name></member>
+    <member refid="MaaDef_8h_1a280c5b45d707fc75dee7b03bcbd3f2ce" kind="define"><name>MaaGamepadButton_L1</name></member>
+    <member refid="MaaDef_8h_1a7d05d73a2577c84ef7ff42d53c634cdf" kind="define"><name>MaaGamepadButton_R1</name></member>
+    <member refid="MaaDef_8h_1a13ebdda97661a8af94d90c0866b5ba5a" kind="define"><name>MaaGamepadButton_L3</name></member>
+    <member refid="MaaDef_8h_1a3ffbb685bbaaa306ad59f2ab1fbd75ec" kind="define"><name>MaaGamepadButton_R3</name></member>
+    <member refid="MaaDef_8h_1a97d149138ef0e0aae4615c53c5547105" kind="define"><name>MaaGamepadButton_OPTIONS</name></member>
+    <member refid="MaaDef_8h_1aca9de8235428dece0d8a5dfec486ae73" kind="define"><name>MaaGamepadButton_SHARE</name></member>
+    <member refid="MaaDef_8h_1a294262e494093148a4205e34c3fea63f" kind="define"><name>MaaGamepadButton_PS</name></member>
+    <member refid="MaaDef_8h_1a7aaba2e0a11aee00e7b56b0c51bb239a" kind="define"><name>MaaGamepadButton_TOUCHPAD</name></member>
+    <member refid="MaaDef_8h_1a3713b287136eabe2203bcc488320e524" kind="define"><name>MaaGamepadTouch_LeftStick</name></member>
+    <member refid="MaaDef_8h_1ad2c4f9269c40a83671a74d188f0e6002" kind="define"><name>MaaGamepadTouch_RightStick</name></member>
+    <member refid="MaaDef_8h_1a572fba9d73a204b8a4aa05f7d478fbd2" kind="define"><name>MaaGamepadTouch_LeftTrigger</name></member>
+    <member refid="MaaDef_8h_1ae9473fa358a86a65f4fed2bb5bc6a6e4" kind="define"><name>MaaGamepadTouch_RightTrigger</name></member>
     <member refid="MaaDef_8h_1a9d97a808d79e338e4a9001268e805336" kind="define"><name>MaaControllerFeature_None</name></member>
     <member refid="MaaDef_8h_1a717d745204302e5eabf406b008c5a957" kind="define"><name>MaaControllerFeature_UseMouseDownAndUpInsteadOfClick</name></member>
     <member refid="MaaDef_8h_1ac8dc1b4410fe6a3ff2d62f5a2ee803ec" kind="define"><name>MaaControllerFeature_UseKeyboardDownAndUpInsteadOfClick</name></member>
+    <member refid="MaaDef_8h_1a5ca72cf3815fc88ba7ef8b762bc6ed94" kind="define"><name>MaaControllerFeature_NoScalingTouchPoints</name></member>
     <member refid="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6" kind="enum"><name>MaaStatusEnum</name></member>
     <member refid="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6a062c9b1508f38dba096aa2587ba08d40" kind="enumvalue"><name>MaaStatus_Invalid</name></member>
     <member refid="MaaDef_8h_1a92a321c9e89a79ab64dc5176057d76a6ad675ca7fe058998743ec8d99c72a914e" kind="enumvalue"><name>MaaStatus_Pending</name></member>
@@ -302,6 +348,9 @@
     <member refid="MaaDef_8h_1a23833339ba6406d680688350d27d37b3" kind="typedef"><name>MaaWin32ScreencapMethod</name></member>
     <member refid="MaaDef_8h_1a29af4457ff72b57b157a1d58d6d28878" kind="typedef"><name>MaaWin32InputMethod</name></member>
     <member refid="MaaDef_8h_1a7a7491d55c50840ccb1891ba9b7740c4" kind="typedef"><name>MaaDbgControllerType</name></member>
+    <member refid="MaaDef_8h_1a53a0d2c454370893abfbaf100b48dc0d" kind="typedef"><name>MaaGamepadType</name></member>
+    <member refid="MaaDef_8h_1abb0b4cd931aa02d962781dbe496df3cd" kind="typedef"><name>MaaGamepadButton</name></member>
+    <member refid="MaaDef_8h_1a4970adab630ddcf1e06f84acb415d270" kind="typedef"><name>MaaGamepadTouch</name></member>
     <member refid="MaaDef_8h_1a350d60e24f82240806bc6569f4da65f8" kind="typedef"><name>MaaControllerFeature</name></member>
     <member refid="MaaDef_8h_1a90ae9b4896224481bd0967903dafdfa1" kind="typedef"><name>MaaRect</name></member>
     <member refid="MaaDef_8h_1a83fe073ae3fefc09c17fd9eb6b6b3e50" kind="typedef"><name>MaaNotificationCallback</name></member>
@@ -379,6 +428,7 @@
     <member refid="MaaBuffer_8h_1ae853448a1632c7e73ac1004a5b963d40" kind="function"><name>MaaImageBufferChannels</name></member>
     <member refid="MaaBuffer_8h_1a0987a5d84f007279c74cc6ee8e48b0db" kind="function"><name>MaaImageBufferType</name></member>
     <member refid="MaaBuffer_8h_1a264698059fd0819daa031ec80bc3be7a" kind="function"><name>MaaImageBufferSetRawData</name></member>
+    <member refid="MaaBuffer_8h_1a30fd17ae6d48e651dafb97e9b0b1a864" kind="function"><name>MaaImageBufferResize</name></member>
     <member refid="MaaBuffer_8h_1acdbc42bfeb973fed192a94152273fd85" kind="function"><name>MaaImageBufferGetEncoded</name></member>
     <member refid="MaaBuffer_8h_1a04aa8aa6ddcc0358c7ab89aa2cadabd2" kind="function"><name>MaaImageBufferGetEncodedSize</name></member>
     <member refid="MaaBuffer_8h_1a6b57da4b068683e5b4d9f379cebd8941" kind="function"><name>MaaImageBufferSetEncoded</name></member>
