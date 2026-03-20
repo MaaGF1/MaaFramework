@@ -183,6 +183,7 @@ $(document).ready(function(){initNavTree('globals.html',''); initResizable(); })
 <li>MaaControllerFeature_NoScalingTouchPoints&#160;:&#160;<a class="el" href="MaaDef_8h.html#a5ca72cf3815fc88ba7ef8b762bc6ed94">MaaDef.h</a></li>
 <li>MaaControllerFeature_UseKeyboardDownAndUpInsteadOfClick&#160;:&#160;<a class="el" href="MaaDef_8h.html#ac8dc1b4410fe6a3ff2d62f5a2ee803ec">MaaDef.h</a></li>
 <li>MaaControllerFeature_UseMouseDownAndUpInsteadOfClick&#160;:&#160;<a class="el" href="MaaDef_8h.html#a717d745204302e5eabf406b008c5a957">MaaDef.h</a></li>
+<li>MaaControllerGetInfo()&#160;:&#160;<a class="el" href="MaaController_8h.html#a3d3746b5ad82db515edb9c32378823d7">MaaController.h</a></li>
 <li>MaaControllerGetResolution()&#160;:&#160;<a class="el" href="MaaController_8h.html#a5373a7227d07d8d46c9a011111d2083b">MaaController.h</a></li>
 <li>MaaControllerGetShellOutput()&#160;:&#160;<a class="el" href="MaaController_8h.html#a92255bcc65b61750e01fa07bcd8d17e0">MaaController.h</a></li>
 <li>MaaControllerGetUuid()&#160;:&#160;<a class="el" href="MaaController_8h.html#a0d7b5199f257b233e79a062c0811b555">MaaController.h</a></li>
@@ -190,6 +191,7 @@ $(document).ready(function(){initNavTree('globals.html',''); initResizable(); })
 <li>MaaControllerPostClickKey()&#160;:&#160;<a class="el" href="MaaController_8h.html#a8d39d06718c5961f0f9a51849e3ed349">MaaController.h</a></li>
 <li>MaaControllerPostClickV2()&#160;:&#160;<a class="el" href="MaaController_8h.html#a3f72c71e3668ff13371f7439e6764d95">MaaController.h</a></li>
 <li>MaaControllerPostConnection()&#160;:&#160;<a class="el" href="MaaController_8h.html#a08f41be1ab0845f494ad7357adac0336">MaaController.h</a></li>
+<li>MaaControllerPostInactive()&#160;:&#160;<a class="el" href="MaaController_8h.html#a307a93663ec1034d905be07e56703cdf">MaaController.h</a></li>
 <li>MaaControllerPostInputText()&#160;:&#160;<a class="el" href="MaaController_8h.html#ac7d6cae7d63684a3d6e78201fcca4b40">MaaController.h</a></li>
 <li>MaaControllerPostKeyDown()&#160;:&#160;<a class="el" href="MaaController_8h.html#ab879179f0c655d61c684d20132cc7c98">MaaController.h</a></li>
 <li>MaaControllerPostKeyUp()&#160;:&#160;<a class="el" href="MaaController_8h.html#afb7c57e77010237effcfe2f638e0bd79">MaaController.h</a></li>
@@ -499,10 +501,12 @@ $(document).ready(function(){initNavTree('globals.html',''); initResizable(); })
 <li>MaaWin32InputMethod_None&#160;:&#160;<a class="el" href="MaaDef_8h.html#a637a673d747aa47edfa545da69c936b1">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_PostMessage&#160;:&#160;<a class="el" href="MaaDef_8h.html#a1ac97988644198c210305ec950b721d5">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_PostMessageWithCursorPos&#160;:&#160;<a class="el" href="MaaDef_8h.html#abb8a086b671038580f7acc36248d4163">MaaDef.h</a></li>
+<li>MaaWin32InputMethod_PostMessageWithWindowPos&#160;:&#160;<a class="el" href="MaaDef_8h.html#a923e6bae66dabe3f86e618af84905cac">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_PostThreadMessage&#160;:&#160;<a class="el" href="MaaDef_8h.html#a2cb24665bfde6623c6f0ebc131784f10">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_Seize&#160;:&#160;<a class="el" href="MaaDef_8h.html#a28f884858b13895fa20adec0fede3aaf">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_SendMessage&#160;:&#160;<a class="el" href="MaaDef_8h.html#a2fee933704cac46f8223159133aeb8db">MaaDef.h</a></li>
 <li>MaaWin32InputMethod_SendMessageWithCursorPos&#160;:&#160;<a class="el" href="MaaDef_8h.html#a56de1c099cca8d34e038b77a644b949f">MaaDef.h</a></li>
+<li>MaaWin32InputMethod_SendMessageWithWindowPos&#160;:&#160;<a class="el" href="MaaDef_8h.html#afa5aca8f812f6146ef66b2a8db0da7a2">MaaDef.h</a></li>
 <li>MaaWin32ScreencapMethod&#160;:&#160;<a class="el" href="MaaDef_8h.html#a23833339ba6406d680688350d27d37b3">MaaDef.h</a></li>
 <li>MaaWin32ScreencapMethod_DXGI_DesktopDup&#160;:&#160;<a class="el" href="MaaDef_8h.html#a4d026e22eafc66cebdde713c465611c8">MaaDef.h</a></li>
 <li>MaaWin32ScreencapMethod_DXGI_DesktopDup_Window&#160;:&#160;<a class="el" href="MaaDef_8h.html#a6969fc9b9c90c5bff9e560898e47e6bf">MaaDef.h</a></li>
@@ -511,13 +515,14 @@ $(document).ready(function(){initNavTree('globals.html',''); initResizable(); })
 <li>MaaWin32ScreencapMethod_None&#160;:&#160;<a class="el" href="MaaDef_8h.html#a614ef2e0ce06147b8077158da914292f">MaaDef.h</a></li>
 <li>MaaWin32ScreencapMethod_PrintWindow&#160;:&#160;<a class="el" href="MaaDef_8h.html#afbfcb148e25ffa976ca826da7b6e6c8c">MaaDef.h</a></li>
 <li>MaaWin32ScreencapMethod_ScreenDC&#160;:&#160;<a class="el" href="MaaDef_8h.html#a28df53af4d4eb7411ec15d6e5ca4632b">MaaDef.h</a></li>
+<li>MaaWlRootsControllerCreate()&#160;:&#160;<a class="el" href="MaaController_8h.html#a49a0cea456829030f106857728783500">MaaController.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 17 2026 for MaaFramework by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri Mar 20 2026 for MaaFramework by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

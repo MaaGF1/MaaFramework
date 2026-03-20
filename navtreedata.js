@@ -51,8 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "MaaAPI_8h.html",
-"MaaDef_8h.html#a9a764a8b46c0c97cbfe2d8e295d90e03",
-"structMaaCustomControllerCallbacks.html#ace80d9863f4faaa37fcf1a00bc521561"
+"MaaDef_8h.html#a94e3946d5d361f2571126016d41a2676",
+"structMaaCustomControllerCallbacks.html#a5a1d73d4f14d2d7b702a1cdafcf96efd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
